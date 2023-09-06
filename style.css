@@ -1,0 +1,77 @@
+:root {
+  --main-navy: #110a1d;
+  --main-blue: #478bf9;
+  --main-white: #ffffff;
+  --main-deep-blue: #1e1231;
+  --additional: #9dadf2;
+}
+
+body {
+  background-color: var(--main-navy);
+  font-family: 'Lexend', sans-serif;
+  color: var(--main-white);
+}
+
+.btn1 {
+  font-family: 'Lexend', sans-serif;
+  border-radius: 24px;
+  font-size: 16px;
+  border: 2px solid var(--additional);
+  color: var(--main-white);
+  line-height: 100%;
+  padding: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn2 {
+  font-family: 'Lexend', sans-serif;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 100%;
+  border: none;
+  color: var(--main-white);
+  padding: 14px;
+  text-transform: uppercase;
+  background-color: var(--main-blue);
+  cursor: pointer;
+}
+
+.header {
+  border-radius: 64px;
+  border: 4px solid var(--main-blue);
+  height: 96px;
+  max-width: 1640px;
+  margin: 16px auto 8px auto;
+  padding: 0 48px;
+  background-color: var(--main-navy);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 260px;
+}
+
+.nav {
+  margin: auto;
+}
+
+.nav_ul {
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav_li a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+.header_btns {
+  display: flex;
+  gap: 14px;
+}
