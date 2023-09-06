@@ -1,0 +1,44 @@
+.line_icon {
+  width: 100px;
+  display: block;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.coin_icon {
+  background-image: url('../icons/coin.svg');
+}
+
+.crown_icon {
+  background-image: url('../icons/crown.svg');
+}
+
+.timer_icon {
+  background-image: url('../icons/timer.svg');
+}
+
+.world_icon {
+  background-image: url('../icons/world.svg');
+  height: 221px;
+}
+
+.coin_green_icon {
+  background-image: url('../icons/coin-green.svg');
+}
+
+.coin_blue_icon {
+  background-image: url('../icons/coin-blue.svg');
+}
+
+.shield_icon {
+  background-image: url('../icons/Shield.svg');
+}
+
+.soccer_icon {
+  background-image: url('../icons/Soccer.svg');
+}
+
+.dollar_icon {
+  background-image: url('../icons/dollar.svg');
+  height: 221px;
+}
