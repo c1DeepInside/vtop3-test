@@ -4,6 +4,7 @@
   --main-white: #ffffff;
   --main-deep-blue: #1e1231;
   --additional: #9dadf2;
+  --main-blue-hover: #6ca2fa;
 }
 
 body {
@@ -306,4 +307,28 @@ h5 {
 
 .footer_nav {
   margin: 0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.socials_icon {
+  fill: var(--main-blue);
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials_icon:hover {
+  fill: var(--main-blue-hover);
+}
+
+.social_buttons {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
 }
