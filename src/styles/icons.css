@@ -3,6 +3,8 @@
   display: block;
   height: 100px;
   flex-shrink: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .coin_icon {
@@ -41,4 +43,70 @@
 .dollar_icon {
   background-image: url('../icons/dollar.svg');
   height: 221px;
+}
+
+@media screen and (max-width: 1919px) {
+  .line_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .dollar_icon {
+    height: 177px;
+  }
+
+  .world_icon {
+    height: 177px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .line_icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dollar_icon {
+    height: 135px;
+  }
+
+  .world_icon {
+    height: 135px;
+  }
+}
+
+@media screen and (max-width: 1159px) {
+  .line_icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dollar_icon {
+    background-image: url('../icons/dollar_row.svg');
+    width: 135px;
+    height: 61px;
+  }
+
+  .world_icon {
+    background-image: url('../icons/world_row.svg');
+    width: 135px;
+    height: 61px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .line_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .dollar_icon {
+    width: 110px;
+    height: 50px;
+  }
+
+  .world_icon {
+    width: 110px;
+    height: 50px;
+  }
 }
