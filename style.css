@@ -132,6 +132,12 @@ h5 {
   gap: 14px;
 }
 
+.language_icon {
+  transform: translateY(1px);
+  width: 15px;
+  height: 15px;
+}
+
 .main {
   height: 960px;
   max-width: 1920px;
@@ -551,7 +557,7 @@ h5 {
     }
 
     50% {
-      transform: translateX(100%);
+      transform: translateX(30%);
     }
 
     100% {
@@ -561,7 +567,7 @@ h5 {
 
   @keyframes bannerDown {
     0% {
-      transform: translateX(100%);
+      transform: translateX(30%);
     }
 
     50% {
@@ -569,7 +575,7 @@ h5 {
     }
 
     100% {
-      transform: translateX(100%);
+      transform: translateX(30%);
     }
   }
 
@@ -668,7 +674,18 @@ h5 {
   }
 
   .header_mobile {
-    display: block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #language_btn_mobile {
+    padding: 8px;
+  }
+
+  .menu_button_wrap {
+    position: relative;
   }
 
   .header_burger {
