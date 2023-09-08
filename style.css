@@ -101,6 +101,10 @@ h5 {
   display: none;
 }
 
+#language_btn {
+  width: 80px;
+}
+
 .logo {
   margin: auto;
 }
